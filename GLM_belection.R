@@ -23,14 +23,3 @@ qqnorm(qres2, las=1, main="Q-Q plot for model2")
 abline(0, 1)
 scatter.smooth(qres2~fitted(model2), las=1, main="Residuals vs fitted for model2",
                xlab="Fitted value", ylab="Quantile residual")
-
-model2_q = update(model2, family=quasibinomial)
-summary(model2_q)$dispersion
-
-Cons = exp(coef(model2)[1])
-Cons
-
-Lab = exp(coef(model2)[1]+coef(model2)[3])
-Lab
-
-Cons/Lab
