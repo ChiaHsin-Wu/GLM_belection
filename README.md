@@ -7,7 +7,7 @@
   - [model 1](#model-1)
   - [model 2](#model-2)
   - [model 比較與 ANOVA](#model比較與ANOVA)
-- [模型選擇結果與殘差分析](#結果選用-model-2)
+- [模型選擇結果與殘差分析](#模型選擇結果與殘差分析)
 - [模型公式與變數解釋](#模型公式與變數解釋)
   - [勝算比（Odds Ratio）解釋](#勝算比odds-ratio解釋)
 
