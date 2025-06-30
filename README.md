@@ -55,12 +55,12 @@
 根據係數的顯著性來看，所有Region變數的p值皆大於0.05，顯示Region在模型中並不具顯著的解釋力。因此，僅包含Party的模型(model2)相較於同時考慮Party與Region的完整模型(model1)，更為簡潔且有效。此外，model2的AIC(266.6078)亦低於model1(275.0311)，表示model2整體擬合效果更佳。雖然model1的residual deviance較小，但因為它使用更多變數、自由度較少，實際上的改善有限。從ANOVA檢定結果可知，加入Region後，並未顯著提升模型表現，其p值為0.3858，大於0.05，意味著Region在統計上並未提供額外的解釋力，故model2是更合適的GLM模型。
 
 ## 模型選擇結果與殘差分析
-![ration vs Region](QQ_plot.png)
+![QQplot](QQ_plot.png)
 
 由Q-Q圖可知，大部分點落在對角線附近，顯示model2的殘差大致符合常態分布，不過在分布的兩端，仍可觀察到少數點明顯偏離直線，反映出殘差可能存在離群值。
 
 
-![ration vs Region](QQ_plot.png)
+![residual](residual.png)
 
 殘差圖中未見明顯的系統性趨勢，表示殘差呈隨機分布，擬合線大致沿著零軸，支持模型的變異數為常數的假設。
 
